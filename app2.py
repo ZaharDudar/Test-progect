@@ -2,6 +2,8 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
+print('hello! Я испортил проект))')
+
 messages = []
 @app.route('/messages')
 def hello():

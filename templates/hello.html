@@ -1,0 +1,10 @@
+<html>
+<body>
+<div>
+  {% for msg in messages %}
+    <div>{{msg['name']}} wrote: {{msg['text']}}</div>
+  {% endfor %}
+</div>
+<a href="/add_message">New message</a>
+</body>
+</html>
